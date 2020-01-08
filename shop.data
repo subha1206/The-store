@@ -6,13 +6,13 @@ const Shop_Data= [
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
+        name: 'Brown Brimm',
         imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
         price: 250
       },
       {
         id: 2,
-        name: 'Blue Beanie',
+        name: 'Blue Beaniee',
         imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
         price: 18
       },
