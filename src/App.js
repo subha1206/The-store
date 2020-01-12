@@ -10,13 +10,11 @@ import { auth,createUserProfileDocument } from './firebase/firebase.utils';
 import {setCurrentUser } from './redux/user/user.actions'
 
 class App extends React.Component {
-  
   unsubscribeFromAuth = null;
   componentDidMount() {
    this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
       if(userAuth){
         const userRef = await createUserProfileDocument(userAuth);
-
         userRef.onSnapshot(snapShot => {
           this.props.setCurrentUser({
               id: snapShot.id,
