@@ -3,17 +3,6 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 
-// const config = {
-//     apiKey: "AIzaSyDuJekkEtPhd6qmgemPXTFGejKujt4yEpA",
-//     authDomain: "the-store-850da.firebaseapp.com",
-//     databaseURL: "https://the-store-850da.firebaseio.com",
-//     projectId: "the-store-850da",
-//     storageBucket: "the-store-850da.appspot.com",
-//     messagingSenderId: "860410812273",
-//     appId: "1:860410812273:web:667c6bf829c1c4238588d0",
-//     measurementId: "G-TDXZ7HZPDB"
-// };
-
 const config = {
     apiKey: "AIzaSyDoMqyH5UbwahZIRfDhSPzMV70CUGqLC8s",
     authDomain: "the-store-2.firebaseapp.com",
