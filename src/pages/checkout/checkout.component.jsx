@@ -32,7 +32,7 @@ const CheckOutPage = ({cartItems, total}) => (
             )
         }
         <div className='total'>
-            { total > 0 ? (<span>TOTAL: {total}</span>)
+            { total > 0 ? (<span>TOTAL: &#8377;{total}</span>)
                          : (<span></span>)
             }
         </div>
