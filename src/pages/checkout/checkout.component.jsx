@@ -7,7 +7,7 @@ import CheckOutItem from '../../components/checkout-item/checkout-item.component
 
 const CheckOutPage = ({cartItems, total}) => (
     <div className='checkout-page'>
-        <div className='checkout-header'>
+        <div className='checkout-header' >
             <div className='header-block'>
                 <span>Product</span>
             </div>
@@ -32,7 +32,9 @@ const CheckOutPage = ({cartItems, total}) => (
             )
         }
         <div className='total'>
-            <span>TOTAL: {total}</span>
+            { total > 0 ? (<span>TOTAL: {total}</span>)
+                         : (<span></span>)
+            }
         </div>
     </div>
 )
