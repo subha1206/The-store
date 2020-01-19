@@ -13,7 +13,6 @@ import { selectCartHidden } from  '../../redux/cart/cart.selector'
 const Header = ({currentUser, hidden}) => {
     return (
         <div className='header'>
-            
             <Link className='logo-container' to="/">
                 { currentUser ? (
                 <div className='user-details' >
