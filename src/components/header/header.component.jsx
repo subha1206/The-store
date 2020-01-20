@@ -14,13 +14,7 @@ const Header = ({currentUser, hidden}) => {
     return (
         <div className='header'>
             <Link className='logo-container' to="/">
-                { currentUser ? (
-                <div className='user-details' >
-                Hello, <span>{currentUser.displayName.replace(/ /g, '')}</span>
-                </div>) : (
-                  <Logo className='logo' />  
-                )
-                }
+            <Logo className='logo' />  
             </Link>
             <div className='options'>
                 <Link className='option' to="/shop">
